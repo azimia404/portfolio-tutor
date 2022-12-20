@@ -1,0 +1,168 @@
+﻿@import url(fonts/all.css);
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+a {
+	text-decoration: none;
+}
+
+.title-h1 {
+	display: block;
+	font-family: var(--primary-font);
+	font-size: 1.2rem;
+	font-weight: 700;
+	line-height: 2rem;
+	color: var(--blue);
+	cursor: pointer;
+	transition: color 0.2s linear;
+}
+
+	.title-h1:hover {
+		color: var(--yellow);
+	}
+
+.title-h2 {
+	font-family: var(--title-font);
+	font-size: 3rem;
+	font-weight: 600;
+	color: var(--black);
+}
+
+.title-h3 {
+	font-family: var(--title-font);
+	font-size: 2.4rem;
+	font-weight: 600;
+	color: var(--black);
+}
+
+.title-h4 {
+	font-family: var(--title-font);
+	font-size: 1.4rem;
+	font-weight: 600;
+}
+
+.title-extra {
+	display: flex;
+	gap: 0.5rem;
+	align-items: center;
+	font-family: var(--primary-font);
+	font-size: 0.6rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: var(--yellow);
+}
+
+.title-extra-decoration {
+	position: relative;
+	display: flex;
+	width: 5rem;
+	height: 0.4rem;
+	border: none;
+	overflow: visible;
+	background-image: linear-gradient(to top, transparent calc(50% - 0.5px), var(--yellow) 0 calc(50% + 0.5px), transparent 0 100%);
+}
+
+	.title-extra-decoration:before {
+		content: '';
+		position: absolute;
+		left: 0;
+		right: 4rem;
+		display: block;
+		height: 100%;
+		background-color: var(--yellow);
+		animation: title-extra-decoration 5s ease-in-out infinite;
+	}
+
+@keyframes title-extra-decoration {
+	25% {
+		left: 0;
+		right: 0;
+	}
+
+	50% {
+		left: 4rem;
+		right: 0;
+	}
+
+	75% {
+		left: 0;
+		right: 0;
+	}
+}
+
+.title-extra-type-2 {
+	font-family: var(--primary-font);
+	font-size: 0.8rem;
+	font-weight: 700;
+	color: var(--blue);
+}
+
+.blockquote {
+	padding: 0.5rem 0.5rem 0.5rem 1rem;
+	border-left: 0.25rem solid var(--yellow);
+	font-family: var(--title-font);
+	font-size: 2rem;
+	line-height: 1em;
+	font-weight: 600;
+}
+
+.para {
+	font-family: var(--primary-font);
+	font-size: 0.8rem;
+	line-height: 1.2rem;
+	text-align: justify;
+	color: var(--gray);
+}
+
+.price {
+	font-family: var(--title-font);
+	font-size: 2rem;
+	line-height: 1rem;
+	font-weight: 600;
+	color: var(--yellow);
+}
+
+	.price:before {
+		content: '$'
+	}
+
+	.price:after {
+		content: '/hr'
+	}
+
+	.price:before, .price:after {
+		font-size: 1rem;
+	}
+
+.ta-left {
+	text-align: left;
+}
+
+.ta-center {
+	text-align: center;
+}
+
+.ta-right {
+	text-align: right;
+}
+
+.ta-justify {
+	text-align: justify;
+}
+
+.text-nowrap {
+	white-space: nowrap;
+}
+
+/*Text colors*/
+
+.text-white {
+	color: var(--gray-f7);
+}
+
+	.text-white.arrow-list > .list-item:before, .text-white.check-list > .list-item:before {
+		color: var(--yellow)
+	}
+
+.text-dark-blue {
+	color: var(--dark-blue);
+}

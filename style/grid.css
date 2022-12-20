@@ -1,0 +1,291 @@
+﻿:root {
+	--gap: 1rem;
+}
+
+.grid {
+	display: flex;
+	justify-content: space-between;
+}
+
+	.grid.s-e {
+		padding-left: var(--gap);
+		padding-right: var(--gap);
+	}
+
+	.grid.s-e-real {
+		justify-content: space-evenly;
+	}
+
+	.grid.s-b {
+		justify-content: space-between;
+	}
+
+	.grid.f-s {
+		justify-content: flex-start
+	}
+
+	.grid.s-a {
+		justify-content: space-around;
+	}
+
+.row {
+	flex-direction: row;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+
+.nowrap {
+	flex-wrap: nowrap;
+}
+
+.aself-s {
+	align-self: flex-start;
+}
+
+.aself-c {
+	align-self: center;
+}
+
+.aself-e {
+	align-self: flex-end;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+.col-11 {
+	width: calc((100% - 11rem) / 12 * 11 + 10rem);
+}
+
+.col-10 {
+	width: calc((100% - 11rem) / 12 * 10 + 9rem);
+}
+
+.col-9 {
+	width: calc((100% - 11rem) / 12 * 9 + 8rem);
+}
+
+.col-8 {
+	width: calc((100% - 11rem) / 12 * 8 + 7rem);
+}
+
+.col-7 {
+	width: calc((100% - 11rem) / 12 * 7 + 6rem);
+}
+
+.col-6 {
+	width: calc((100% - 11rem) / 12 * 6 + 5rem);
+}
+
+.col-5 {
+	width: calc((100% - 11rem) / 12 * 5 + 4rem);
+}
+
+.col-4 {
+	width: calc((100% - 11rem) / 12 * 4 + 3rem);
+}
+
+.col-3 {
+	width: calc((100% - 11rem) / 12 * 3 + 2rem);
+}
+
+.col-2 {
+	width: calc((100% - 11rem) / 12 * 2 + 1rem);
+}
+
+.col-1 {
+	width: calc((100% - 11rem) / 12);
+}
+
+
+
+.grid > .spr-11 {
+	margin-right: calc(var(--gap) * 11 + ((100% - var(--gap) * 11) / 12) * 11);
+}
+
+.grid > .spr-10 {
+	margin-right: calc(var(--gap) * 10 + ((100% - var(--gap) * 11) / 12) * 10);
+}
+
+.grid > .spr-9 {
+	margin-right: calc(var(--gap) * 9 + ((100% - var(--gap) * 11) / 12) * 9);
+}
+
+.grid > .spr-8 {
+	margin-right: calc(var(--gap) * 8 + ((100% - var(--gap) * 11) / 12) * 8);
+}
+
+.grid > .spr-7 {
+	margin-right: calc(var(--gap) * 7 + ((100% - var(--gap) * 11) / 12) * 7);
+}
+
+.grid > .spr-6 {
+	margin-right: calc(var(--gap) * 6 + ((100% - var(--gap) * 11) / 12) * 6);
+}
+
+.grid > .spr-5 {
+	margin-right: calc(var(--gap) * 5 + ((100% - var(--gap) * 11) / 12) * 5);
+}
+
+.grid > .spr-4 {
+	margin-right: calc(var(--gap) * 4 + ((100% - var(--gap) * 11) / 12) * 4);
+}
+
+.grid > .spr-3 {
+	margin-right: calc(var(--gap) * 3 + ((100% - var(--gap) * 11) / 12) * 3);
+}
+
+.grid > .spr-2 {
+	margin-right: calc(var(--gap) * 2 + ((100% - var(--gap) * 11) / 12) * 2);
+}
+
+.grid > .spr-1 {
+	margin-right: calc(var(--gap) * 1 + ((100% - var(--gap) * 11) / 12) * 1);
+}
+
+.grid > .spl-11 {
+	margin-left: calc(var(--gap) * 11 + ((100% - var(--gap) * 11) / 12) * 11);
+}
+
+.grid > .spl-10 {
+	margin-left: calc(var(--gap) * 10 + ((100% - var(--gap) * 11) / 12) * 10);
+}
+
+.grid > .spl-9 {
+	margin-left: calc(var(--gap) * 9 + ((100% - var(--gap) * 11) / 12) * 9);
+}
+
+.grid > .spl-8 {
+	margin-left: calc(var(--gap) * 8 + ((100% - var(--gap) * 11) / 12) * 8);
+}
+
+.grid > .spl-7 {
+	margin-left: calc(var(--gap) * 7 + ((100% - var(--gap) * 11) / 12) * 7);
+}
+
+.grid > .spl-6 {
+	margin-left: calc(var(--gap) * 6 + ((100% - var(--gap) * 11) / 12) * 6);
+}
+
+.grid > .spl-5 {
+	margin-left: calc(var(--gap) * 5 + ((100% - var(--gap) * 11) / 12) * 5);
+}
+
+.grid > .spl-4 {
+	margin-left: calc(var(--gap) * 4 + ((100% - var(--gap) * 11) / 12) * 4);
+}
+
+.grid > .spl-3 {
+	margin-left: calc(var(--gap) * 3 + ((100% - var(--gap) * 11) / 12) * 3);
+}
+
+.grid > .spl-2 {
+	margin-left: calc(var(--gap) * 2 + ((100% - var(--gap) * 11) / 12) * 2);
+}
+
+.grid > .spl-1 {
+	margin-left: calc(var(--gap) * 1 + ((100% - var(--gap) * 11) / 12) * 1);
+}
+
+
+
+.grid > .cell[class*=ratio-] {
+	height: 0;
+	padding: 0;
+}
+
+.grid > .ratio-1 {
+	padding-bottom: calc(var(--gap) * 0 + ((100% - var(--gap) * 11) / 12) * 1);
+}
+
+.grid > .ratio-2 {
+	padding-bottom: calc(var(--gap) * 1 + ((100% - var(--gap) * 11) / 12) * 2);
+}
+
+.grid > .ratio-3 {
+	padding-bottom: calc(var(--gap) * 2 + ((100% - var(--gap) * 11) / 12) * 3);
+}
+
+.grid > .ratio-4 {
+	padding-bottom: calc(var(--gap) * 3 + ((100% - var(--gap) * 11) / 12) * 4);
+}
+
+.grid > .ratio-5 {
+	padding-bottom: calc(var(--gap) * 4 + ((100% - var(--gap) * 11) / 12) * 5);
+}
+
+.grid > .ratio-6 {
+	padding-bottom: calc(var(--gap) * 5 + ((100% - var(--gap) * 11) / 12) * 6);
+}
+
+.grid > .ratio-7 {
+	padding-bottom: calc(var(--gap) * 6 + ((100% - var(--gap) * 11) / 12) * 7);
+}
+
+.grid > .ratio-8 {
+	padding-bottom: calc(var(--gap) * 7 + ((100% - var(--gap) * 11) / 12) * 8);
+}
+
+.grid > .ratio-9 {
+	padding-bottom: calc(var(--gap) * 8 + ((100% - var(--gap) * 11) / 12) * 9);
+}
+
+.grid > .ratio-10 {
+	padding-bottom: calc(var(--gap) * 9 + ((100% - var(--gap) * 11) / 12) * 10);
+}
+
+.grid > .ratio-11 {
+	padding-bottom: calc(var(--gap) * 10 + ((100% - var(--gap) * 11) / 12) * 11);
+}
+
+.grid > .ratio-12 {
+	padding-bottom: calc(var(--gap) * 11 + ((100% - var(--gap) * 11) / 12) * 12);
+}
+
+/*Gaps*/
+.v-gap-1 {
+	row-gap: calc(var(--gap) * 1);
+}
+
+.v-gap-1-5 {
+	row-gap: calc(var(--gap) * 1.5);
+}
+
+.v-gap-2 {
+	row-gap: calc(var(--gap) * 2);
+}
+
+.v-gap-2-5 {
+	row-gap: calc(var(--gap) * 2.5);
+}
+
+.v-gap-4 {
+	row-gap: calc(var(--gap) * 4);
+}
+
+.h-gap-1 {
+	column-gap: calc(var(--gap) * 1);
+}
+
+.h-gap-1-5 {
+	column-gap: calc(var(--gap) * 1.5);
+}
+
+.h-gap-2 {
+	column-gap: calc(var(--gap) * 2);
+}
+
+.h-gap-2-5 {
+	column-gap: calc(var(--gap) * 2.5);
+}
+
+.h-gap-4 {
+	column-gap: calc(var(--gap) * 4);
+}
